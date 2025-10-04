@@ -1,8 +1,8 @@
 <div class="post" [id]="post.postTitle.split(' ').slice(0, 3).join('_')">
     <div class="post-header">
-      <!-- @if (post.headerPic) {
+      @if (post.headerPic) {
         <img [src]="topPicSource(post.headerPic, 'big')" alt="Header-pic" class="header-pic">
-      } -->
+      }
       <p class="post-title">
         {{ post.postTitle }}
       </p>
