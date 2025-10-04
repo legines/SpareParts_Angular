@@ -1,5 +1,27 @@
 [
     {
+        "id": 9,
+        "date": "09-01-2025",
+        "postTitle": "Front lip install",
+        "contentOne": "Today I am finally motivated enough to install the front lip on my Z. This lip has been sitting in my office for a couple of months now, but since the suspension is done and there is a car's and coffee meet on the 6th, now is the time to get it done. The install was alright. I didnt jack the car up or use my diy wood ramps because of laziness. First the lip came in three pieces, which can be assembled together by a couple of screws. I bought some 3M double sided tape to help hold the lip onto the bumper while I drilled the holes. The tape was applied on the parts of the lip that would touch the bumper.",
+        "contentOneExample": "",
+        "contentOnePics": ["lip_underside", "lip_assembled"],
+        "contentTwo": "Next I took a couple of extra pieces of wood and used them to prop up the lip, using jacks, onto the bumper as a test fit. Once everything was adjust and lined up good I removed the wood and jacks and stuck random items under the lip to hold it in place. The wood and jacks were getting in my way too much so my tire inflator and random tool boxes were used to hold the lip. After that I double checked the fitment of the lip before peeling off the backing of the tape. One side was done at a time, peeling off the tape backing and sticking the lip onto the bumper. After that I attached the lip to the bumper using self tapping screws. Overall it didnt take too long to do and imo looks awesome.",
+        "contentTwoPics": ["lip_fitment_one", "lip_fitment_two", "lip_attached"],
+        "contentThree": "",
+        "contentThreePics": [],
+        "contentFour": "",
+        "contentFourPics": [],
+        "contentFive": "",
+        "contentFivePics": [],
+        "contentSource": "",
+        "contentSourceText": "",
+        "headerPic": "lip_header",
+        "tableData": {},
+        "tableSource": "",
+        "tableSourceText": ""
+    },
+    {
         "id": 8,
         "date": "08-12-2025",
         "postTitle": "Issues to fix before alignment",
@@ -60,7 +82,7 @@
         "contentFivePics": [],
         "contentSource": "",
         "contentSourceText": "",
-        "headerPic": "",
+        "headerPic": "suspension_header",
         "tableData": {},
         "tableSource": "",
         "tableSourceText": ""
@@ -82,7 +104,7 @@
         "contentFivePics": ["top_hat_trick", "top_hat"],
         "contentSource": "",
         "contentSourceText": "",
-        "headerPic": "",
+        "headerPic": "suspension_header",
         "tableData": {},
         "tableSource": "",
         "tableSourceText": ""

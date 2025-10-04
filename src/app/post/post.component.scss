@@ -1,6 +1,5 @@
 .post {
     font-family: arial,helvetica,sans-serif;
-    border-bottom: 1px solid #44444d;
     padding: 4em 0;
     &#Calculating_wheel_offsets {
         .content-three, .content-four, .content-one-example {
@@ -101,4 +100,11 @@
             }
         }
     }
+}
+hr {
+    border: 0;
+    height: 1px;
+    background: #44444d;
+    margin: 0 auto;
+    width: 35em;
 }
