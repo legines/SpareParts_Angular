@@ -1,5 +1,8 @@
 <div class="post" [id]="post.postTitle.split(' ').slice(0, 3).join('_')">
     <div class="post-header">
+      <!-- @if (post.headerPic) {
+        <img [src]="topPicSource(post.headerPic, 'big')" alt="Header-pic" class="header-pic">
+      } -->
       <p class="post-title">
         {{ post.postTitle }}
       </p>
@@ -21,12 +24,12 @@
           {{ post.contentOneExample }}
         </p>
       }
-      @if (post.topPics) {
+      @if (post.contentOnePics) {
         <div class="mid-pics-container">
-          @for (pic of post.topPics; track pic) {
-            <img [src]="topPicSource(pic, 'small')" alt="Mid-pic" class="mid-pic" (click)="openPic(pic)">
+          @for (pic of post.contentOnePics; track pic) {
+            <img [src]="topPicSource(pic, 'small')" alt="content-one-pics" class="mid-pic" (click)="openPic(pic)">
           }
-          @if (post.topPics.length % 2 !== 0) {
+          @if (post.contentOnePics.length % 2 !== 0) {
             <img src="" class="mid-pic">
           }
         </div>
@@ -37,12 +40,12 @@
       <p class="content-two">
         {{ post.contentTwo }}
       </p>
-      @if (post.midPicsOne) {
+      @if (post.contentTwoPics) {
         <div class="mid-pics-container">
-          @for (pic of post.midPicsOne; track pic) {
-            <img [src]="topPicSource(pic, 'small')" alt="Mid-pic" class="mid-pic" (click)="openPic(pic)">
+          @for (pic of post.contentTwoPics; track pic) {
+            <img [src]="topPicSource(pic, 'small')" alt="content-two-pics" class="mid-pic" (click)="openPic(pic)">
           }
-          @if (post.midPicsOne.length % 2 !== 0) {
+          @if (post.contentTwoPics.length % 2 !== 0) {
             <img src="" class="mid-pic">
           }
         </div>
@@ -50,12 +53,12 @@
       <p class="content-three">
         {{ post.contentThree }}
       </p>
-      @if (post.midPicsTwo) {
+      @if (post.contentThreePics) {
         <div class="mid-pics-container">
-          @for (pic of post.midPicsTwo; track pic) {
-            <img [src]="topPicSource(pic, 'small')" alt="Mid-pic-two" class="mid-pic" (click)="openPic(pic)">
+          @for (pic of post.contentThreePics; track pic) {
+            <img [src]="topPicSource(pic, 'small')" alt="content-three-pics" class="mid-pic" (click)="openPic(pic)">
           }
-          @if (post.midPicsTwo.length % 2 !== 0) {
+          @if (post.contentThreePics.length % 2 !== 0) {
             <img src="" class="mid-pic">
           }
         </div>
@@ -63,12 +66,25 @@
       <p class="content-four">
         {{ post.contentFour }}
       </p>
-      @if (post.bottomPics) {
+      @if (post.contentFourPics) {
         <div class="mid-pics-container">
-          @for (pic of post.bottomPics; track pic) {
-            <img [src]="topPicSource(pic, 'small')" alt="Bottom-pic" class="mid-pic" (click)="openPic(pic)">
+          @for (pic of post.contentFourPics; track pic) {
+            <img [src]="topPicSource(pic, 'small')" alt="content-four-pics" class="mid-pic" (click)="openPic(pic)">
           }
-          @if (post.bottomPics.length % 2 !== 0) {
+          @if (post.contentFourPics.length % 2 !== 0) {
+            <img src="" class="mid-pic">
+          }
+        </div>
+      }
+      <p class="content-five">
+        {{ post.contentFive }}
+      </p>
+      @if (post.contentFivePics) {
+        <div class="mid-pics-container">
+          @for (pic of post.contentFivePics; track pic) {
+            <img [src]="topPicSource(pic, 'small')" alt="content-five-pics" class="mid-pic" (click)="openPic(pic)">
+          }
+          @if (post.contentFivePics.length % 2 !== 0) {
             <img src="" class="mid-pic">
           }
         </div>
